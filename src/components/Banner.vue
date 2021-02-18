@@ -1,9 +1,11 @@
 <template>
 	<div>
 		<!-- component -->
-		<div class="flex justify-center items-center inline-block overflow-hidden">
+		<div
+			class="flex flex-wrap justify-center items-center inline-block overflow-hidden"
+		>
 			<!-- start bergabung -->
-			<div class="flex w-5/12 py-10 bg-cover card bg-content-100">
+			<div class="flex md:w-auto mx-9 py-6 md:py-10 bg-cover card bg-content-100">
 				<div class="card bg-blue-50 lg:card-side">
 					<!-- start content -->
 					<div class="max-w-md card-body">
@@ -18,7 +20,7 @@
 					<!-- end content -->
 
 					<!-- start image -->
-					<figure class="">
+					<figure class="hidden md:block">
 						<img :src="joinUs" alt="join us" class="w-24 h-52" />
 					</figure>
 					<!-- end image -->
@@ -26,8 +28,8 @@
 			</div>
 			<!-- end bergabung -->
 
-			<!-- start bergabung -->
-			<div class="flex items-center w-6/12 py-10 bg-cover card bg-content-100">
+			<!-- start belanja -->
+			<div class="flex w-auto mx-9 py-6 md:py-10 bg-cover card bg-content-100">
 				<div class="card bg-green-50 lg:card-side">
 					<!-- start content -->
 					<div class="max-w-md card-body">
@@ -44,13 +46,13 @@
 					<!-- end content -->
 
 					<!-- start image -->
-					<figure class="">
+					<figure class="hidden md:block">
 						<img :src="startShop" alt="join us" class="w-24 h-52" />
 					</figure>
 					<!-- end image -->
 				</div>
 			</div>
-			<!-- end bergabung -->
+			<!-- end belanja -->
 		</div>
 	</div>
 </template>

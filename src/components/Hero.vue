@@ -11,7 +11,9 @@
 					Untuk Kami.
 				</h1>
 
-				<button class="btn btn-primary">Jelajahi</button>
+				<button class="btn btn-primary px-6 md:px-8">
+					Jelajahi
+				</button>
 			</div>
 		</div>
 	</div>

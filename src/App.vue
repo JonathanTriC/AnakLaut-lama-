@@ -2,7 +2,8 @@
 	<div id="app">
 		<Nav />
 		<Hero />
-		<Banner class="mx-6" />
+		<Banner class="mx-6 my-6" />
+		<Category class="my-6" />
 	</div>
 </template>
 
@@ -10,6 +11,7 @@
 import Nav from "./components/Nav.vue";
 import Hero from "./components/Hero.vue";
 import Banner from "./components/Banner.vue";
+import Category from "./components/Category.vue";
 
 export default {
 	name: "App",
@@ -17,6 +19,7 @@ export default {
 		Nav,
 		Hero,
 		Banner,
+		Category,
 	},
 };
 </script>

@@ -109,91 +109,97 @@
 
 			<div class="flex-none">
 				<!-- start icon cart -->
-				<button class="btn btn-square btn-ghost">
-					<svg
-						width="35"
-						height="34"
-						viewBox="0 0 35 34"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M12.8788 32.1818C13.6988 32.1818 14.3636 31.517 14.3636 30.697C14.3636 29.8769 13.6988 29.2121 12.8788 29.2121C12.0587 29.2121 11.3939 29.8769 11.3939 30.697C11.3939 31.517 12.0587 32.1818 12.8788 32.1818Z"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M29.2121 32.1818C30.0322 32.1818 30.697 31.517 30.697 30.697C30.697 29.8769 30.0322 29.2121 29.2121 29.2121C28.3921 29.2121 27.7273 29.8769 27.7273 30.697C27.7273 31.517 28.3921 32.1818 29.2121 32.1818Z"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M1 1H6.93939L10.9188 20.8821C11.0546 21.5657 11.4265 22.1798 11.9694 22.6169C12.5123 23.0539 13.1916 23.2861 13.8885 23.2727H28.3212C29.0181 23.2861 29.6974 23.0539 30.2403 22.6169C30.7832 22.1798 31.1551 21.5657 31.2909 20.8821L33.6667 8.42424H8.42424"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-					</svg>
-				</button>
+				<form action="#">
+					<button type="submit" class="btn btn-square btn-ghost">
+						<svg
+							width="35"
+							height="34"
+							viewBox="0 0 35 34"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M12.8788 32.1818C13.6988 32.1818 14.3636 31.517 14.3636 30.697C14.3636 29.8769 13.6988 29.2121 12.8788 29.2121C12.0587 29.2121 11.3939 29.8769 11.3939 30.697C11.3939 31.517 12.0587 32.1818 12.8788 32.1818Z"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M29.2121 32.1818C30.0322 32.1818 30.697 31.517 30.697 30.697C30.697 29.8769 30.0322 29.2121 29.2121 29.2121C28.3921 29.2121 27.7273 29.8769 27.7273 30.697C27.7273 31.517 28.3921 32.1818 29.2121 32.1818Z"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M1 1H6.93939L10.9188 20.8821C11.0546 21.5657 11.4265 22.1798 11.9694 22.6169C12.5123 23.0539 13.1916 23.2861 13.8885 23.2727H28.3212C29.0181 23.2861 29.6974 23.0539 30.2403 22.6169C30.7832 22.1798 31.1551 21.5657 31.2909 20.8821L33.6667 8.42424H8.42424"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+				</form>
 				<!-- end icon cart -->
 
 				<!-- start icon chat -->
-				<button class="btn btn-square btn-ghost">
-					<svg
-						width="31"
-						height="30"
-						viewBox="0 0 31 30"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M29.6667 14.2222C29.6721 16.2754 29.1924 18.3007 28.2667 20.1333C27.1692 22.3294 25.4819 24.1765 23.3939 25.4678C21.3058 26.7591 18.8995 27.4435 16.4445 27.4444C14.3914 27.4498 12.366 26.9701 10.5334 26.0444L1.66675 29L4.6223 20.1333C3.69664 18.3007 3.21695 16.2754 3.2223 14.2222C3.22325 11.7672 3.9077 9.36091 5.19897 7.27289C6.49025 5.18487 8.33736 3.49759 10.5334 2.40004C12.366 1.47438 14.3914 0.994691 16.4445 1.00004H17.2223C20.4646 1.17892 23.527 2.54745 25.8232 4.8436C28.1193 7.13974 29.4878 10.2022 29.6667 13.4445V14.2222Z"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-					</svg>
-				</button>
+				<form action="#">
+					<button type="submit" class="btn btn-square btn-ghost">
+						<svg
+							width="31"
+							height="30"
+							viewBox="0 0 31 30"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M29.6667 14.2222C29.6721 16.2754 29.1924 18.3007 28.2667 20.1333C27.1692 22.3294 25.4819 24.1765 23.3939 25.4678C21.3058 26.7591 18.8995 27.4435 16.4445 27.4444C14.3914 27.4498 12.366 26.9701 10.5334 26.0444L1.66675 29L4.6223 20.1333C3.69664 18.3007 3.21695 16.2754 3.2223 14.2222C3.22325 11.7672 3.9077 9.36091 5.19897 7.27289C6.49025 5.18487 8.33736 3.49759 10.5334 2.40004C12.366 1.47438 14.3914 0.994691 16.4445 1.00004H17.2223C20.4646 1.17892 23.527 2.54745 25.8232 4.8436C28.1193 7.13974 29.4878 10.2022 29.6667 13.4445V14.2222Z"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+				</form>
 				<!-- end icon chat -->
 
 				<!-- start icon notif -->
-				<button class="btn btn-square btn-ghost">
-					<svg
-						width="31"
-						height="34"
-						viewBox="0 0 31 34"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M25.0001 10.3333C25.0001 7.85798 24.0168 5.48401 22.2664 3.73367C20.5161 1.98333 18.1421 1 15.6667 1C13.1914 1 10.8174 1.98333 9.06709 3.73367C7.31675 5.48401 6.33341 7.85798 6.33341 10.3333C6.33341 21.2222 1.66675 24.3333 1.66675 24.3333H29.6667C29.6667 24.3333 25.0001 21.2222 25.0001 10.3333Z"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M18.3579 30.5556C18.0844 31.027 17.6918 31.4184 17.2196 31.6904C16.7473 31.9624 16.2118 32.1056 15.6668 32.1056C15.1217 32.1056 14.5863 31.9624 14.114 31.6904C13.6417 31.4184 13.2491 31.027 12.9756 30.5556"
-							stroke="#C4C4C4"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-					</svg>
-				</button>
+				<form action="#">
+					<button type="submit" class="btn btn-square btn-ghost">
+						<svg
+							width="31"
+							height="34"
+							viewBox="0 0 31 34"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M25.0001 10.3333C25.0001 7.85798 24.0168 5.48401 22.2664 3.73367C20.5161 1.98333 18.1421 1 15.6667 1C13.1914 1 10.8174 1.98333 9.06709 3.73367C7.31675 5.48401 6.33341 7.85798 6.33341 10.3333C6.33341 21.2222 1.66675 24.3333 1.66675 24.3333H29.6667C29.6667 24.3333 25.0001 21.2222 25.0001 10.3333Z"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M18.3579 30.5556C18.0844 31.027 17.6918 31.4184 17.2196 31.6904C16.7473 31.9624 16.2118 32.1056 15.6668 32.1056C15.1217 32.1056 14.5863 31.9624 14.114 31.6904C13.6417 31.4184 13.2491 31.027 12.9756 30.5556"
+								stroke="#C4C4C4"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+				</form>
 				<!-- end icon notif -->
 			</div>
 
 			<!-- start daftar btn -->
-			<div class="flex-none">
-				<button class="btn btn-primary px-6 ml-4">Daftar</button>
-			</div>
+			<form method="" action="#" class="flex-none">
+				<button type="submit" class="btn btn-primary px-6 ml-4">Daftar</button>
+			</form>
 			<!-- end daftar btn -->
 
 			<!-- start avatar -->
