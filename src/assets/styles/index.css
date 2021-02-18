@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+	@apply place-items-start;
+}
+
+.btn-primary {
+	@apply bg-indigo-700;
+}
+
+.btn-primary:hover {
+	@apply bg-indigo-600;
+}
