@@ -6,6 +6,9 @@
 	@apply place-items-start;
 }
 
+.btn {
+	@apply border-none;
+}
 .btn-primary {
 	@apply bg-indigo-700;
 }

@@ -192,7 +192,7 @@
 
 			<!-- start daftar btn -->
 			<div class="flex-none">
-				<button class="btn btn-primary ml-4">Daftar</button>
+				<button class="btn btn-primary px-6 ml-4">Daftar</button>
 			</div>
 			<!-- end daftar btn -->
 
