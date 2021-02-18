@@ -13,3 +13,11 @@
 .btn-primary:hover {
 	@apply bg-indigo-600;
 }
+
+.input-ghost:focus {
+	@apply bg-gray-200;
+}
+
+.navbar {
+	@apply mx-4 md:mx-16 my-2;
+}

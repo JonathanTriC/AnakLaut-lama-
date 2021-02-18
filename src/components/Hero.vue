@@ -3,10 +3,10 @@
 		<img :src="image" alt="gambar hero" />
 	</div> -->
 	<div class="hero">
-		<img :src="image" alt="gambar hero" />
+		<img :src="image" alt="gambar hero" class="w-auto  h-40 md:h-auto" />
 		<div class="text-white ">
-			<div class="p-24">
-				<h1 class="mb-7 text-5xl font-bold">
+			<div class=" p-4 md:p-24">
+				<h1 class=" mb-4 md:mb-7 text-xl md:text-5xl font-bold">
 					Laut Kami, <br />
 					Untuk Kami.
 				</h1>
