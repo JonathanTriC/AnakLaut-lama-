@@ -1,10 +1,12 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
+// import "./assets/js/navbar-toggler.js";
 import "./assets/styles/index.css";
 
 export const eventBus = createApp(App);
 
+// Vue.use(Toggler);
 createApp(App).mount("#app");
 
 // import Vue from "vue";

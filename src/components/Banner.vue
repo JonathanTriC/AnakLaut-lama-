@@ -5,13 +5,15 @@
 			class="flex flex-wrap justify-center items-center inline-block overflow-hidden"
 		>
 			<!-- start bergabung -->
-			<div class="flex md:w-auto mx-9 py-6 md:py-10 bg-cover card bg-content-100">
+			<div
+				class="flex md:w-auto -mx-5 md:mx-9 py-3 md:py-10 bg-cover card bg-content-100"
+			>
 				<div class="card bg-blue-50 lg:card-side">
 					<!-- start content -->
 					<div class="max-w-md card-body">
 						<h2 class="card-title">
 							Bersama Nelayan Indonesia <br />
-							Untuk Masa Depan Yang Lebih baik
+							Untuk Masa Depan Yang Cerah
 						</h2>
 						<div class="card-actions">
 							<button class="btn btn-primary rounded-full px-10">Bergabung</button>
@@ -29,7 +31,9 @@
 			<!-- end bergabung -->
 
 			<!-- start belanja -->
-			<div class="flex w-auto mx-9 py-6 md:py-10 bg-cover card bg-content-100">
+			<div
+				class="flex w-auto -mx-5 md:mx-9 py-6 md:py-10 bg-cover card bg-content-100"
+			>
 				<div class="card bg-green-50 lg:card-side">
 					<!-- start content -->
 					<div class="max-w-md card-body">
