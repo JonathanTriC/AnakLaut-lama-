@@ -197,10 +197,6 @@
 </template>
 
 <script>
-// import "../assets/js/navbar-toggler.js";
-// import * as navbarToggler from "../assets/js/navbar-toggler.js";
-// import "Toggler";
-
 export default {
 	data: function() {
 		return {
