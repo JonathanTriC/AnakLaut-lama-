@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="sticky top-0 z-20 shadow-lg">
 		<!-- component -->
 		<div class="font-sans antialiased w-full overflow-hidden" id="app">
 			<nav class="flex items-center justify-between flex-wrap bg-white p-3 md:p-6">
@@ -57,7 +57,7 @@
 					class="w-full sm:flex sm:items-center sm:w-auto"
 				>
 					<!-- start search box -->
-					<div class="flex-1 lg:flex-none">
+					<div class="flex-1 lg:flex-none my-2">
 						<div class="form-control">
 							<input
 								type="text"
@@ -96,7 +96,7 @@
 					</div>
 					<!-- end search box -->
 
-					<div class="flex inline-block">
+					<div class="flex inline-block my-2">
 						<!-- start icon cart -->
 						<form action="#">
 							<button type="submit" class="btn btn-square btn-ghost">
@@ -186,7 +186,7 @@
 					</div>
 
 					<!-- start daftar btn -->
-					<form method="" action="#" class="flex-none">
+					<form method="" action="#" class="flex-none my-2">
 						<button type="submit" class="btn btn-primary px-6 ml-4">Daftar</button>
 					</form>
 					<!-- end daftar btn -->

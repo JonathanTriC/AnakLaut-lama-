@@ -18,9 +18,19 @@
 }
 
 .input-ghost:focus {
-	@apply bg-gray-200;
+	@apply bg-gray-50;
 }
 
 .navbar {
 	@apply mx-4 md:mx-16 my-2;
+}
+
+.scrollbar::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.scrollbar {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE 10+ */
 }
